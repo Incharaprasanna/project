@@ -1,0 +1,218 @@
+
+    ul {
+    list-style-type: none; /* Removes the default list style */
+    margin: 0; /* Removes the default margin */
+    padding: 0; /* Removes the default padding */
+    overflow: hidden; /* Ensures the .li elements are in line */
+    background-color: #fb7878; /* Dark background for the list */
+    text-align: center; /* Centers the list horizontally */
+
+    
+
+}
+
+li {
+    display: inline-block; /* Displays list items horizontally */
+}
+
+li a {
+    display: block; /* Makes the links fill the li elements */
+    color: black; /* White text color */
+    text-align: center; /* Centers the text within each link */
+    padding: 12px 32px; /* Adds padding for spacing around the text */
+    text-decoration: none; /* Removes underline from links */
+    font-family: bell MTs; /* Choose the font family */
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+.list-img{
+    align-self: flex-end;
+    width: 5%;
+    align-items: center;
+    
+}
+.nav{
+    width: 24px;
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+
+    /* Container for text and image */
+    .top {
+        display: flex;
+        background-image: linear-gradient(90deg, #f7e9a8, #f58cee); /* Apply gradient background */
+    padding: 20px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Take up the full height of the viewport */
+    margin: 20; /* Remove default margin */
+    padding: 0;
+    }
+    /* Style for the text */
+    .top-text {
+        width: 50%; /* Text takes 70% of the container width */
+        padding: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-family: "Arial";
+    }
+    .heading{
+        font-size: 40px;
+        width: 100%;
+        left: 20%;
+        text-align: justify;
+        
+    }
+    .msg{
+      
+        
+    font-family: Arial, sans-serif; 
+    font-size: 16px; 
+    line-height: 1.5; 
+    }
+    .button{
+        width: 33%;
+        height: 10%;
+        background-color: #f56464;
+        border: 0;
+        outline: none;
+        color: #fff;
+        padding: 8px 2px;
+        font-size: 16px;
+        font-family: "candara light";
+    }
+    
+    .right-image {
+        width: 100%;
+        padding-left: -50%;
+        padding-right: 100%;
+        height: 100%;
+         
+       
+    }
+    .menu-icon {
+    cursor: pointer;
+    font-size: 24px; 
+    vertical-align: middle; 
+    }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: linear-gradient(to right,#f7e9a8, #f58cee); 
+  }
+
+  .text-content {
+    flex: 1; 
+  }
+
+  .right-image {
+    width: 600px;
+    height: 100dvh;
+    
+  }
+  .p1{
+    padding: 20px;
+  }
+  .p2{
+    width: 50%;
+  }
+
+
+  
+  #section1 {
+    background: linear-gradient(to right, #f7e9a8 , #f58cee );
+    padding: 20px;
+}
+
+  .bottom{
+  
+    padding: 20px;
+    padding:5%;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    justify-content: space-between;
+  }
+
+
+.bottom-section {
+   width: 50%;
+   display: flex;
+   padding: 20px;
+   justify-items: left;
+}
+
+.bottom-section-two{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+
+}
+
+.img1{
+    width: 100%;
+    margin-bottom: 10px;
+    height: 200px;
+}
+
+.bottom-text{
+    padding: 20px;
+    background-color: #f56464;
+    right: 50%;
+    width: 42%;
+    height: 50%;
+    font-family: "Arial";
+    margin-left: 1%;
+}
+
+.small-heading{
+    margin-bottom: 10px;
+    font-size: 20px;
+   text-align:  start;
+   margin-left: 5%;
+}
+
+.bottom-heading{
+    font-size: 40px;
+    margin-bottom: 10px;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.arrow-click-container{
+    display: flex;
+    align-items: center;
+    
+}
+
+.click-heading{
+    font-size: 15px;
+    margin-left: 5%;
+}
+
+.right-arrow{
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
+    margin-left: 5%;
+}
+
+
+
+
+
+section {
+    background-color: linear-gradient(to right,#f7e9a8, #f58cee);
+    height: 100vh;
+   
+
+}
+
+
+
+ 
